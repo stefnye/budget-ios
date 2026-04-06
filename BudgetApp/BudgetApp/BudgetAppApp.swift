@@ -20,6 +20,10 @@ struct BudgetAppApp: App {
                         .tabItem {
                             Label("Budgets", systemImage: "chart.bar.fill")
                         }
+                    BudgetChartView()
+                        .tabItem {
+                            Label("Répartition", systemImage: "chart.pie.fill")
+                        }
                 }
                 .environmentObject(authVM)
             } else {

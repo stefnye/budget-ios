@@ -24,6 +24,8 @@
 		AA000015 /* TransactionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000015; };
 		AA000016 /* AddTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000016; };
 		AA000017 /* BudgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000017; };
+		AA000020 /* BudgetChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000020; };
+		AA000021 /* BudgetChartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB000021; };
 		AA000018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB000018; };
 		AA000019 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB000019; };
 /* End PBXBuildFile section */
@@ -46,6 +48,8 @@
 		AB000015 /* TransactionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListView.swift; sourceTree = "<group>"; };
 		AB000016 /* AddTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionView.swift; sourceTree = "<group>"; };
 		AB000017 /* BudgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetView.swift; sourceTree = "<group>"; };
+		AB000020 /* BudgetChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetChartView.swift; sourceTree = "<group>"; };
+		AB000021 /* BudgetChartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetChartViewModel.swift; sourceTree = "<group>"; };
 		AB000018 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB000019 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AC000001 /* BudgetApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BudgetApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,6 +109,7 @@
 				AB000015 /* TransactionListView.swift */,
 				AB000016 /* AddTransactionView.swift */,
 				AB000017 /* BudgetView.swift */,
+				AB000020 /* BudgetChartView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -115,6 +120,7 @@
 				AB000010 /* AuthViewModel.swift */,
 				AB000011 /* DashboardViewModel.swift */,
 				AB000012 /* TransactionViewModel.swift */,
+				AB000021 /* BudgetChartViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -227,6 +233,8 @@
 				AA000015 /* TransactionListView.swift in Sources */,
 				AA000016 /* AddTransactionView.swift in Sources */,
 				AA000017 /* BudgetView.swift in Sources */,
+				AA000020 /* BudgetChartView.swift in Sources */,
+				AA000021 /* BudgetChartViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
